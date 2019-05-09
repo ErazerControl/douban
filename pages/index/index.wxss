@@ -1,0 +1,32 @@
+.search-group{
+  display: flex;
+  background-color: #42ba54;
+  width: 100%;
+  height: 100rpx;
+  justify-content: center;
+  align-items:center;
+
+}
+.search-group .search-outter{
+  background-color: white;
+  border-radius: 20rpx;
+  width: 90%;
+  height: 70rpx;
+  /* padding: 5rpx 0rpx; */
+}
+.search-inner{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  
+
+}
+.search-inner image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.search-inner text{
+  font-size: 23rpx;
+  color: #dcdcdc;
+
+}
