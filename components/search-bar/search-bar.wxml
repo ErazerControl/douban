@@ -1,0 +1,16 @@
+<view class="search-group" hover-class="none" hover-stop-propagation="false">
+  <view class="search-outter" hover-class="none" hover-stop-propagation="false">
+    <navigator wx:if="{{mode=='1'}}" class="" target="" url="../search/search" hover-class="navigator-hover" open-type="navigate">
+      <view class="search-inner" hover-class="none" hover-stop-propagation="false">
+        <image class="" src="../../images/search.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+          
+        <text >
+          搜索
+        </text>
+      </view>
+          
+    </navigator>
+    <input wx:else class="search-input"type="text" placeholder="搜索"></input>
+  </view>  
+</view>
+  

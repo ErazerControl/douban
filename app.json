@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/rank/rank"
+    "pages/rank/rank",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#42ba54",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white"
   },
