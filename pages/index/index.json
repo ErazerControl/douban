@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "search-bar":"/components/search-bar/search-bar"
+    "search-bar":"/components/search-bar/search-bar",
+    "show-group":"/components/show-group/show-group"
   },
   "navigationBarTitleText":"首页",
   "navigationBarBackgroundColor":"#42ba54"

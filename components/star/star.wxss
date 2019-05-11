@@ -1,0 +1,18 @@
+.rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rate .rate-image{
+    display: flex;
+  }
+  .rate .rate-text{
+    font-size: 25rpx;
+    margin-left: 10rpx;
+    color: #969696;
+    
+  }
+  .rate-image image{
+    width: 25rpx;
+    height:25rpx;
+  }

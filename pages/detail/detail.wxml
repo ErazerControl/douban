@@ -1,0 +1,37 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="detail-group" hover-class="none" hover-stop-propagation="false">
+        <view class="detail-title">
+            {{detail.title}} {{detail.original_title}} ({{detail.year}})
+        </view>
+        <view class="detail-content">
+            <view class="detail-main">
+                <view class="rate-group">
+                    <star score="{{detail.rating.value}}"></star>  
+                    <view class="rate-sum">
+                        {{detail.rating.count}}人评价
+                        </view>  
+                </view>
+                <view class="describe">
+                    <text class="describe-text" selectable="false" space="false" decode="false">{{detail.durations[0]}} {{detail.genres}}</text>
+                    <text class="describe-text" selectable="false" space="false" decode="false">{{detail.pubdate[0]}}</text>
+                    <text class="describe-text" selectable="false" space="false" decode="false">{{detail.card_subtitle}}</text>            
+                </view>
+                
+                  
+            </view>
+            <view class="thumbnail">
+                <image class="" src="{{detail.cover.image.small.url}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                  
+            </view>
+        </view>
+    </view>
+    <view class="tag-group" hover-class="none" hover-stop-propagation="false">
+        
+    </view>
+      <view class="comment-group" hover-class="none" hover-stop-propagation="false">
+          
+      </view>
+        
+      
+</view>
+  

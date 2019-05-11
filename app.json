@@ -1,10 +1,13 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/detail/detail",
+    
     "pages/logs/logs",
     "pages/my/my",
     "pages/rank/rank",
     "pages/search/search"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -33,7 +36,7 @@
       "iconPath": "images/my.png"
       }
     ],
-    "color": "#8B4513",
+    "color": "#a9a9a9",
     "selectedColor": "#42ba54"
     },
   "sitemapLocation": "sitemap.json"

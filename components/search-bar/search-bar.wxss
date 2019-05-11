@@ -9,16 +9,18 @@
 }
 .search-group .search-outter{
   background-color: white;
-  border-radius: 20rpx;
-  width: 90%;
-  height: 70rpx;
+  border-radius: 10rpx;
+  width: 95%;
+  height: 60rpx;
   /* padding: 5rpx 0rpx; */
 }
 .search-inner{
   display: flex;
   align-items:center;
   justify-content: center;
-  
+  font-size: 30rpx;
+  color: #dcdcdc;
+  height: 60rpx;
 
 }
 .search-inner image{
@@ -26,7 +28,6 @@
   height: 40rpx;
 }
 .search-inner text{
-  font-size: 23rpx;
-  color: #dcdcdc;
+  
 
 }

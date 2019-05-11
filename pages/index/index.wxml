@@ -1,35 +1,4 @@
 <search-bar></search-bar>
-<view class="show-group">
-    <view class="show-title">
-        <view class="show-type">
-            <text >影院热线</text>
-        </view>
-        <view class="show-more">
-            <text >查看更多</text>
-        </view>
-    </view>
-    <view class="show-content">
-        <scroll-view class="scroll-group" scroll-x="{{true}}">
-            <view wx:for="{{movieList}}" class="detail-group">
-                <view class="detail-upper">
-                    <image src="{{item.cover.url}}" />
-                </view>
-                <view class="detail-downer">
-                    <view class="name">
-                        <text>{{item.title}}</text>
-                    </view>
-                    <view class="rate">
-                        <view class="rate-image"wx:for="{{[1,2,3,4]}}">
-                            <image src="/images/rate_light.png" />
-                        </view>
-                        <view class="rate-image"wx:for="{{[1]}}">
-                            <image src="/images/rate_gray.png" />
-                        </view>
-                        <text class="rate-text">8.0</text>
-                    </view>
-                </view>
-            </view>
-           
-        </scroll-view>
-    </view>
-</view>
+<show-group title="{{movieTitle}}" List="{{movieList}}"></show-group>
+<show-group title="{{tvTitle}}" List="{{tvList}}"></show-group>
+<show-group title="{{showTitle}}" List="{{showList}}"></show-group>

@@ -1,0 +1,50 @@
+.show-group{
+    height: 400rpx;
+    padding: 20rpx 20rpx;
+  }
+  .show-group .show-title{
+    display: flex;
+    height: 40rpx;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 30rpx;
+  }
+  /* #42ba54 */
+  .show-title .show-more{
+    color: #42ba54;
+  }
+  .show-group .show-content{
+    margin-top: 20rpx;
+    height: 300rpx;
+    margin-top: 40rpx;
+  }
+  .show-content .scroll-group{
+    width: 100%;
+    white-space:nowrap;
+  }
+  .scroll-group .detail-group{
+    display: inline-block;
+    margin-right: 20rpx;
+  }
+  .detail-group .detail-upper{
+    height: 260rpx;
+    width: 200rpx;
+  }
+  .detail-upper image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+  }
+  .detail-downer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:200rpx;
+  }
+  .detail-downer .name{
+    font-size: 28rpx;
+    text-overflow: ellipsis;
+    overflow: hidden; /*隐藏溢出的文本 */
+  }
+
+  

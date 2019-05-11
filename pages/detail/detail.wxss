@@ -1,0 +1,35 @@
+.container{
+    padding: 50rpx 30rpx;
+}
+.detail-group .detail-content{
+    display: flex;
+    width: 100%;
+    margin-top: 30rpx;
+}
+.detail-content .detail-main{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-main .rate-group{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20rpx;
+}
+.detail-main .describe{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32rpx;
+}
+.rate-group .rate-sum{
+    margin-left: 20rpx;
+}
+.detail-content .thumbnail{
+    width: 220rpx;
+    height: 300rpx;
+}
+.thumbnail image{
+    width: 100%;
+    height: 100%;
+}
