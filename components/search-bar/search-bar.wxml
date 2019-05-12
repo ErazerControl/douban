@@ -10,7 +10,10 @@
       <!-- </view> -->
           
     </navigator>
-    <input wx:else class="search-input"type="text" bindinput="onInputEvent" placeholder="搜索"></input>
+    <view wx:else class="input-group">
+      <input class="search-input" type="text" bindinput="onInputEvent" placeholder="搜索"></input>
+    </view>
+    
   </view>  
 </view>
   

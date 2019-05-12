@@ -26,5 +26,12 @@
 }
 .container .button-group{
     margin-top: 30rpx;
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between
+}
+.button-group .last{
+    margin-left: 20rpx;
+}
+.button-group .next{
+    margin-right: 20rpx;
 }

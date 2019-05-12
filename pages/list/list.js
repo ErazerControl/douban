@@ -16,6 +16,13 @@ Page({
     console.log(options)
     var type=options.type;
     var that=this;
+    wx.setNavigationBarTitle({
+      title: options.title,
+      success: function(res) {
+        // success
+      }
+    })
+    options.title
     wx.showLoading({
       title: '加载中',
     });

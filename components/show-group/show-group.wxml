@@ -4,7 +4,7 @@
             <text >{{title}}</text>
         </view>
         <view class="show-more">
-            <navigator url="/pages/list/list?type={{type}}"><text >查看更多</text></navigator>
+            <navigator url="/pages/list/list?type={{type}}&title={{title}}"><text >查看更多</text></navigator>
         </view>
     </view>
     <view class="show-content">

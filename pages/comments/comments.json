@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "onecomment":"/components/onecomment/onecomment"
-  }
+  },
+  "navigationBarTitleText":"更多评论"
 }

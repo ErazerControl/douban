@@ -14,8 +14,7 @@ Page({
    */
   onLoad: function (options) {
     console.log(options)
-    if(options.log){
-      console.log(options.log)
+    if(options.title){
       var logs=new Array()
       try {
         var value = wx.getStorageSync('history')
@@ -25,7 +24,8 @@ Page({
       } catch (e) {
       }
       console.log(logs);
-      logs.push(options.log)
+      var obj={'id':options.id,'title':options.title,'type':options.type}
+      logs.push(obj)
       wx.setStorage({
         key: 'history',
         data: logs

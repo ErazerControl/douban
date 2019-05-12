@@ -27,11 +27,8 @@
   width: 40rpx;
   height: 40rpx;
 }
-.search-inner text{
-  
-
-}
-.search-outter .search-input{
+.input-group .search-input{
   font-size: 25rpx;
   margin-left: 20rpx;
+  height: 60rpx;
 }

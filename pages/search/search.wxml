@@ -9,13 +9,13 @@
         </view>
     </view>
     <view class="history-content">
-        <view wx:for="{{logs}}"class="history-item">
-            {{item}}
-        </view>
+        <navigator url="../detail/detail?id={{item.id}}&type={{item.type}}" wx:for="{{logs}}" class="history-item">
+            {{item.title}}
+        </navigator>
     </view>
 </view>
 <view class="search-result">
-    <navigator wx:for="{{searchList}}" url="../detail/detail?id={{item.id}}&type={{item.type}}&log={{log}}"  class="search-item">
+    <navigator wx:for="{{searchList}}" url="../detail/detail?id={{item.id}}&type={{item.type}}&title={{item.title}}"  class="search-item">
         <view class="search-left">
             <image src="{{item.pic.normal}}" />
         </view>
