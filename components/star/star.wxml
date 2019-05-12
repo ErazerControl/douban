@@ -8,5 +8,5 @@
     <view class="rate-image"wx:for="{{rate_gray}}" wx:key="*this">
         <image src="/images/rate_gray.png" />
     </view>
-    <text class="rate-text">{{grade}}</text>
+    <text wx:if="{{text}}"class="rate-text">{{grade}}</text>
 </view>

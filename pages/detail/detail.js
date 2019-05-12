@@ -14,11 +14,19 @@ Page({
    */
   onLoad: function (options) {
     console.log(options)
+    if(!options.type){
+      options.type='movie'
+    }
+    if(!options.id){
+      options.id='26835471'
+    }
     var that=this
     getDetail(options.type,options.id,function(data){
       console.log(data);
+      var type=data.genres.join('/')
         that.setData({
-          detail:data
+          detail:data,
+          type:type
         }
         )
     })

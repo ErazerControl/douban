@@ -26,10 +26,94 @@
         </view>
     </view>
     <view class="tag-group" hover-class="none" hover-stop-propagation="false">
-        
+        <view class="tag-title">豆瓣常用标签</view>
+        <view class="tag-content">
+            <view class="tag">动画</view>
+            <view class="tag">美国</view>
+            <view class="tag">2019</view>
+            <view class="tag">动漫</view>
+            <view class="tag">游戏改编</view>
+            <view class="tag">游戏改编</view>
+            <view class="tag">游戏改编</view>
+            <view class="tag">游戏改编</view>
+        </view>
     </view>
       <view class="comment-group" hover-class="none" hover-stop-propagation="false">
-          
+          <view class="comment-title">
+              短评(12134)
+          </view>
+          <view class="comment-content">
+              <view class="comment-left">
+                  <image class="" src="https://img1.doubanio.com/icon/u52498752-57.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    
+              </view>
+              <view class="comment-right">
+                  <view class="userinfo">
+                      <view class="username">韩霄飞</view>
+                      <star score="{{7}}"></star>
+                  </view>
+                  <view class="time">
+                      2019-05-12 20:51
+                  </view>
+                  <view class="comment-text">
+                      跟其他漫改系列感觉差不多：就是捧着一个好IP，却没有多认真地打磨剧本。不过这只皮卡丘还是可以吸的，第一次说话稍稍违和，习惯了就变反差萌。加一星给可爱的蒜头蛤蟆。
+                  </view>
+              </view>
+          </view>
+          <view class="comment-content">
+              <view class="comment-left">
+                  <image class="" src="https://img1.doubanio.com/icon/u52498752-57.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    
+              </view>
+              <view class="comment-right">
+                  <view class="userinfo">
+                      <view class="username">韩霄飞</view>
+                      <star score="{{7}}"></star>
+                  </view>
+                  <view class="time">
+                      2019-05-12 20:51
+                  </view>
+                  <view class="comment-text">
+                      跟其他漫改系列感觉差不多：就是捧着一个好IP，却没有多认真地打磨剧本。不过这只皮卡丘还是可以吸的，第一次说话稍稍违和，习惯了就变反差萌。加一星给可爱的蒜头蛤蟆。
+                  </view>
+              </view>
+          </view>
+          <view class="comment-content">
+              <view class="comment-left">
+                  <image class="" src="https://img1.doubanio.com/icon/u52498752-57.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    
+              </view>
+              <view class="comment-right">
+                  <view class="userinfo">
+                      <view class="username">韩霄飞</view>
+                      <star score="{{7}}"></star>
+                  </view>
+                  <view class="time">
+                      2019-05-12 20:51
+                  </view>
+                  <view class="comment-text">
+                      跟其他漫改系列感觉差不多：就是捧着一个好IP，却没有多认真地打磨剧本。不过这只皮卡丘还是可以吸的，第一次说话稍稍违和，习惯了就变反差萌。加一星给可爱的蒜头蛤蟆。
+                  </view>
+              </view>
+          </view>
+          <view class="comment-content">
+              <view class="comment-left">
+                  <image class="" src="https://img1.doubanio.com/icon/u52498752-57.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    
+              </view>
+              <view class="comment-right">
+                  <view class="userinfo">
+                      <view class="username">韩霄飞</view>
+                      <star score="{{7}}"></star>
+                  </view>
+                  <view class="time">
+                      2019-05-12 20:51
+                  </view>
+                  <view class="comment-text">
+                      跟其他漫改系列感觉差不多：就是捧着一个好IP，却没有多认真地打磨剧本。不过这只皮卡丘还是可以吸的，第一次说话稍稍违和，习惯了就变反差萌。加一星给可爱的蒜头蛤蟆。
+                  </view>
+              </view>
+          </view>
       </view>
         
       
