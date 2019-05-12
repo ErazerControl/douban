@@ -1,3 +1,6 @@
 <view class="container">
-    <oneitem wx:for="{{List}}" item="{{item}}"></oneitem>
+    <view wx:for="{{List}}" class="item">
+    <oneitem item="{{item}}"></oneitem>
+        
+    </view>
 </view>

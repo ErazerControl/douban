@@ -1,5 +1,10 @@
-.detail-upper{
-    height: 260rpx;
+.oneitem{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200rpx;
+}
+.oneitem .detail-upper{
+    height: 280rpx;
     width: 200rpx;
   }
   .detail-upper image{
@@ -7,14 +12,17 @@
     height: 100%;
     border-radius: 10rpx;
   }
-  .detail-downer{
+  .oneitem .detail-downer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width:200rpx;
+    height: 80rpx;
   }
   .detail-downer .name{
     font-size: 28rpx;
     text-overflow: ellipsis;
     overflow: hidden; /*隐藏溢出的文本 */
+    height: 40rpx;
+    
   }
