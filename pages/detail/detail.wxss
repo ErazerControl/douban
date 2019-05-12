@@ -99,3 +99,8 @@
     font-size: 35rpx;
     color: #393f44;
 }
+.more{
+    margin: 30rpx 0rpx;
+    text-align: center;
+    color:#42ba54;
+}

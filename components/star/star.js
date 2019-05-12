@@ -10,6 +10,18 @@ Component({
       observer:function(newVal,oldVal,changedPath){
         this.update()
       }
+    },
+    text:{
+      type:Boolean,
+      value:true
+    },
+    width:{
+      type:String,
+      value:'25rpx'
+    },
+    height:{
+      type:String,
+      value:'25rpx'
     }
   },
 
@@ -49,9 +61,17 @@ Component({
     this.setData({
       rate_light,rate_half,rate_gray
     })
-    this.setData({
-      'grade':this.properties.score.toFixed(1)
-    })
+    if(this.properties.score==0){
+      this.setData({
+        'grade':'未评分'
+      })
+    }
+    else{
+      this.setData({
+        'grade':this.properties.score.toFixed(1)
+      })
+    }
+   
     }
   }
 })

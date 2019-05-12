@@ -1,4 +1,4 @@
 <search-bar></search-bar>
-<show-group title="{{movieTitle}}" List="{{movieList}}"></show-group>
-<show-group title="{{tvTitle}}" List="{{tvList}}"></show-group>
-<show-group title="{{showTitle}}" List="{{showList}}"></show-group>
+<show-group title="{{movieTitle}}" List="{{movieList}}" type="{{'movie'}}"></show-group>
+<show-group title="{{tvTitle}}" List="{{tvList}}" type="{{'tv'}}"></show-group>
+<show-group title="{{showTitle}}" List="{{showList}}" type="{{'show'}}"></show-group>

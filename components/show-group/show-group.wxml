@@ -4,24 +4,13 @@
             <text >{{title}}</text>
         </view>
         <view class="show-more">
-            <text >查看更多</text>
+            <navigator url="/pages/list/list?type={{type}}"><text >查看更多</text></navigator>
         </view>
     </view>
     <view class="show-content">
         <scroll-view class="scroll-group" scroll-x="{{true}}">
             <view wx:for="{{List}}" class="detail-group" wx:key="*this">
-                <navigator class="" target="" url="../detail/detail?id={{item.id}}&type={{item.type}}" hover-class="navigator-hover" open-type="navigate">
-                    
-                <view class="detail-upper">
-                    <image src="{{item.cover.url}}" />
-                </view>
-                <view class="detail-downer">
-                    <view class="name">
-                        {{item.title}}
-                    </view>
-                    <star score="{{item.rating.value}}"> </star>
-                </view>
-                  </navigator>
+                <oneitem item="{{item}}"></oneitem>
             </view>
            
         </scroll-view>

@@ -1,5 +1,5 @@
 // pages/detail/detail.
-import {getDetail} from '../../utils/util'
+import {getDetail,getComment,getTag} from '../../utils/util'
 Page({
 
   /**
@@ -14,12 +14,27 @@ Page({
    */
   onLoad: function (options) {
     console.log(options)
-    if(!options.type){
-      options.type='movie'
+    if(options.log){
+      console.log(options.log)
+      var logs=new Array()
+      try {
+        var value = wx.getStorageSync('history')
+        if (value) {
+          logs=value
+        }
+      } catch (e) {
+      }
+      console.log(logs);
+      logs.push(options.log)
+      wx.setStorage({
+        key: 'history',
+        data: logs
+      })
     }
-    if(!options.id){
-      options.id='26835471'
-    }
+    this.setData({
+      current_id:options.id,
+      current_type:options.type
+    })
     var that=this
     getDetail(options.type,options.id,function(data){
       console.log(data);
@@ -30,8 +45,28 @@ Page({
         }
         )
     })
+    getTag(options.type,options.id,function(data){
+      that.setData({
+        tags:data
+      })
+    })
+    getComment(options.type,options.id,0,3,function(data){
+      that.setData({
+        comments:data.interests,
+        totalcomments:data.total
+      })
+    });
   },
-
+  onMoreEvent:function(event){
+    var id=event.currentTarget.dataset.id;
+    var title = event.currentTarget.dataset.title;
+    var type = event.currentTarget.dataset.type;
+    var thumbnail=event.currentTarget.dataset.thumbnail;
+    var rate=event.currentTarget.dataset.rate;
+    wx.navigateTo({
+      url: '../comments/comments?id='+id+'&title='+title+'&type='+type+'&thumbnail='+thumbnail+'&rate='+rate,
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

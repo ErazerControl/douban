@@ -1,0 +1,12 @@
+<navigator class="" target="" url="../detail/detail?id={{item.id}}&type={{item.type}}" hover-class="navigator-hover" open-type="navigate">
+                    
+    <view class="detail-upper">
+        <image src="{{item.cover.url}}" />
+    </view>
+    <view class="detail-downer">
+        <view class="name">
+            {{item.title}}
+        </view>
+        <star score="{{item.rating.value}}"> </star>
+    </view>
+        </navigator>

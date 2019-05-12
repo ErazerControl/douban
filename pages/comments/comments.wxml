@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="header">
+        <view class="thumbnail">
+            <image src="{{thumbnail}}" />
+        </view>
+        <view class="title">
+            {{title}}
+        </view>
+        <view class="rate">
+            {{rate}}分
+        </view>
+    </view>
+    <view class="content">
+        <view class="content-title">全部影评({{totalcomments}})</view>
+        <onecomment wx:for="{{comments}}" item="{{item}}"></onecomment>
+    </view>
+    <view class="button-group">
+<button class="weui-btn mini-btn" type="primary" size="mini" bindtap="onLastEvent" disabled="{{start<8}}" loading="{{lastloading}}">上一页</button>
+            <button class="weui-btn mini-btn" type="default" size="mini" bindtap="onAfterEvent" loading="{{nextloading}}">下一页</button>
+    </view>
+    
+    
+
+</view>

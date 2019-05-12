@@ -1,0 +1,7 @@
+/* pages/list/list.wxss */
+.container{
+    display: flex;
+    padding: 30rpx 20rpx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

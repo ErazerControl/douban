@@ -21,6 +21,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
-  }
+    onInputEvent:function(event){
+      console.log('子组件触发事件');
+      this.triggerEvent('userInputEvent', {value: event.detail.value})
+    }
+  },
+  
 })

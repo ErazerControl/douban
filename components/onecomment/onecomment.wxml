@@ -1,0 +1,18 @@
+<view class="comment-content">
+    <view class="comment-left">
+        <image class="" src="{{item.user.avatar}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        
+    </view>
+    <view class="comment-right">
+        <view class="userinfo">
+            <view class="username">{{item.user.name}}</view>
+            <star score="{{item.rating.value*2}}" text="{{false}}" width="{{'30rpx'}}" height="{{'30rpx'}}"></star>
+        </view>
+        <view class="time">
+            {{item.create_time}}
+        </view>
+        <view class="comment-text">
+            {{item.comment}}
+        </view>
+    </view>
+</view>

@@ -27,5 +27,10 @@ Page({
         tvTitle:res.subject_collection.name
       })
     }) 
+  },
+  searchInfo:function(event){
+    console.log('父组件触发')
+    console.log(event);
   }
 })
+

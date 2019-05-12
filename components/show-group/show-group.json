@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "star":"../star/star"
+    "star":"../star/star",
+    "oneitem":"../oneitem/oneitem"
   }
 }

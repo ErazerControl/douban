@@ -1,1 +1,33 @@
-<search-bar mode='0'></search-bar>
+<search-bar mode='0' binduserInputEvent="searchInfo"></search-bar>
+<view wx:if="{{!log&&logs}}"class="search-history">
+    <view class="history-title">
+        <view class="title-left">
+            历史纪录
+        </view>
+        <view bindtap="onClearEvent" class="title right">
+            清除
+        </view>
+    </view>
+    <view class="history-content">
+        <view wx:for="{{logs}}"class="history-item">
+            {{item}}
+        </view>
+    </view>
+</view>
+<view class="search-result">
+    <navigator wx:for="{{searchList}}" url="../detail/detail?id={{item.id}}&type={{item.type}}&log={{log}}"  class="search-item">
+        <view class="search-left">
+            <image src="{{item.pic.normal}}" />
+        </view>
+        <view class="search-right">
+            <view class="search-title">
+                {{item.title}}
+            </view>
+            <view class="search-info">
+                {{item.rating.value}}分/{{item.year}}}
+            </view>
+        </view>
+        </navigator>
+    
+    
+</view>

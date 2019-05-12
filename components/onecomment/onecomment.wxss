@@ -1,0 +1,35 @@
+.comment-content{
+    margin-top: 30rpx;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.comment-content .comment-left{
+    width: 100rpx;
+}
+.comment-left image{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+.comment-content .comment-right{
+    flex:1
+}
+.comment-right .userinfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rpx;
+}
+.comment-right .time{
+    color:#bbc2d0;
+    font-size: 35rpx;
+    margin-bottom: 10rpx;
+}
+.userinfo .username{
+    margin-right: 20rpx;
+    font-size: 37rpx;
+}
+.comment-right .comment-text{
+    font-size: 35rpx;
+    color: #393f44;
+}

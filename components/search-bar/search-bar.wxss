@@ -31,3 +31,7 @@
   
 
 }
+.search-outter .search-input{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+}

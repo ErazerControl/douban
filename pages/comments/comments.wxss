@@ -1,0 +1,30 @@
+/* pages/comments/comments.wxss */
+.container{
+    padding: 40rpx 30rpx;
+}
+.container .header{
+    display: flex;
+    margin-bottom: 30rpx;
+    font-size: 30rpx;
+    align-items: center
+}
+.header .thumbnail{
+    width: 40rpx;
+    height: 50rpx;
+    margin-right: 20rpx;
+}
+.thumbnail image{
+    width: 100%;
+    height: 100%;
+}
+.header .title{
+    color: #41be57;
+    margin-right: 20rpx;
+}
+.header .rate{
+    color: #ccc;
+}
+.container .button-group{
+    margin-top: 30rpx;
+    /* display: flex; */
+}

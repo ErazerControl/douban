@@ -7,12 +7,10 @@
         <view class="" hover-class="none" hover-stop-propagation="false">
           搜索
         </view>
-          
-          
       <!-- </view> -->
           
     </navigator>
-    <input wx:else class="search-input"type="text" placeholder="搜索"></input>
+    <input wx:else class="search-input"type="text" bindinput="onInputEvent" placeholder="搜索"></input>
   </view>  
 </view>
   
